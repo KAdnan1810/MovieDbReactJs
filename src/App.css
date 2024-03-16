@@ -1,0 +1,43 @@
+.logo_name {
+    margin-right: 400px;
+    margin-left: 75px;
+    line-height: 0px;
+}
+
+.h-header {
+    height: 74px;
+}
+
+.search-btn {
+    border-radius: 10px;
+    width: 99px;
+    padding: 2px;
+}
+
+.search-panel {
+    border-radius: 10px;
+    width: 210px;
+    padding: 2px;
+}
+
+/* Pagination */
+.pagination {
+    padding: 10px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination > span{
+    padding: 15px 20px;
+    border: 1px solid gray;
+    cursor: pointer;
+  }
+  
+  .pagination__disable{
+    opacity: 0;
+  }
+  
+  .pagination__selected{
+    background-color: rgb(220, 220, 220);
+  }
